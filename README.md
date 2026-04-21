@@ -1,21 +1,28 @@
 # erin-journal
 
-> **Journal** — themed personal tool · *Dune*
+> **Journal** — Chronicles of House Atreides-Cross
+>
+> *"A beginning is the time for taking the most delicate care that the balances are correct. This journal is what gets written down when the day is."*
 
-Live: **https://erin-journal.pages.dev**
+**✦ Private chronicle → [erin-journal.pages.dev](https://erin-journal.pages.dev)**
 
-Part of Erin Cross's personal tool suite. Each tool wears a different cinematic theme.
+---
 
-- **UI repo** (this, public): the page + Pages Functions
-- **Data repo** (`erin-journal-data`, private): the actual journal data
+One file per day. Markdown. No streak counter. No engagement optimization. No analytics dashboard guilting me for missing a Tuesday. Just a place to put the weight of a day before it slips into the desert.
 
-## Stack
+Commit from phone or laptop. Read it six months later and remember what last spring actually felt like.
 
-- Cloudflare Pages (static + Pages Functions)
-- Data proxied from a private GitHub repo via narrowly-scoped PAT
-- GitHub Actions auto-deploys every push to `main`
+## Structure
 
-## Related
+- **Viewer** (this, public): the chronicle reader
+- **Archive** (private, [`erin-journal-data`](https://github.com/Crosserin/erin-journal-data)): `YYYY/MM/YYYY-MM-DD.md`, one per day
+- **Stack**: Cloudflare Pages + GitHub Contents API
+
+## Clearance
+
+No eyes but mine.
+
+## Elsewhere
 
 - 🌐 [xconsultingwork.com](https://xconsultingwork.com)
-- 🎨 [cf-examples portfolio](https://cf-examples.pages.dev)
+- 🧪 [cf-examples](https://cf-examples.pages.dev)
